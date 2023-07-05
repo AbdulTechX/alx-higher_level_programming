@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-# 3-rectangle.py
-# AbdulTechX
+# 3-rectangle.py # AbdulTechX
 """Define a Rectangle class"""
 
 

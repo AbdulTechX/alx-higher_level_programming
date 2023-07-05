@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 3-rectangle.py
+# 4-rectangle.py
 # AbdulTechX
 """Define a Rectangle class"""
 
@@ -38,7 +38,7 @@ class Rectangle:
     def height(self, value):
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
-        elif value < 0:
+        elif value <0:
             raise TypeError("height msut be >= 0")
         self.__height = value
 
@@ -63,6 +63,12 @@ class Rectangle:
         rect = []
         for i in range(self.height):
             [rect.append('#') for j in range(self.__width)]
-            if i != self.__height - 1:
+            if i != self.__height -1:
                 rect.append("\n")
         return ("".join(rect))
+
+    def __repr__(self):
+        """"eturn the string representation of the Rectangle"""
+        rect = "Rectangle(" + str(self.width)
+        rect += ", " +str(self.__height) + ")"
+        return (rect)

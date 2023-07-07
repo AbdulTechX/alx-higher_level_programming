@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 """
-
 This module contain a function that prints a square
-
 """
 
 
@@ -18,7 +16,6 @@ def print_square(size):
         ValueError: If size is less than zero
 
     """
-
     if not isinstance(size, int):
         raise TypeError("size must be an integer")
     elif size < 0:

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 9-rectangle.py
+# 10-square.py
 # AbdulTechX
 """Defines a base geometry class BaseGeometry."""
 

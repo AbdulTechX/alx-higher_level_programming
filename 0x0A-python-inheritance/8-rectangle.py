@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 8-base_geometry.py
+# 8-retaangle.py
 # AbdulTechX
 """Defines a base geometry class BaseGeometry."""
 
@@ -35,7 +35,7 @@ class Rectangle(BaseGeometry):
          height (int): The height of the new Rectangle.
     """
     def __init__(self, width, height):
-        self.integer_validator("width", width)
-        self.__width = width
+        super().integer_validator("width", width)
+        super().__width = width
         self.integer_validator("height", height)
         self.__height = height

@@ -1,6 +1,4 @@
 #!/usr/bin/python
-# 100-my_int.py
-# AbdulTechX
 """Define class Myint"""
 
 
